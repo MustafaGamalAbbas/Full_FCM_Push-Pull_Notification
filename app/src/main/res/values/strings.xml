@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FCM_Notification</string>
+    <string name="action_settings">Settings</string>
+    <string name="all_channels_that_device_subscribe_on">All channels that device subscribe on</string>
+</resources>

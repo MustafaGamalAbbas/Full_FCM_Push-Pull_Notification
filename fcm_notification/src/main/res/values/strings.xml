@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FCM_Notification</string>
+    <string name="serverKey">AAAAPUJnpFI:APA91bGKvenwefNJ1J9yUXeG2kKtTiWY7kFj8pi-wdlUL8eEJ25ReEZeMNwX1C5-bCd-1RpC-XbHG8l1fEnmihmvwVStYYARaNGJUKVqepiE9jpX0jPeXqdBe5AjYi-isGUWnJeGLWJ4</string>
+</resources>
