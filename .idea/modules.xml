@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FCM_Notification.iml" filepath="$PROJECT_DIR$/FCM_Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fcm_notification/fcm_notification.iml" filepath="$PROJECT_DIR$/fcm_notification/fcm_notification.iml" />
+      <module fileurl="file://E:\MustafaPiso\Work\android\Kotlin\FCM_Notification\fcm_notification\fcm_notification2.iml" filepath="E:\MustafaPiso\Work\android\Kotlin\FCM_Notification\fcm_notification\fcm_notification2.iml" />
+    </modules>
+  </component>
+</project>
