@@ -70,7 +70,7 @@ public class FCMPushActivity extends AppCompatActivity {
                 topics.add("all");
                 topics.add("virtual");
                 startActivity(new Intent(FCMPushActivity.this, FCMPullActivity.class));
-                maneger.notifyByTopic(title.getText().toString(), message.getText().toString(), topicEditText.getText().toString())
+                maneger.notifyByTopic(title.getText().toString(), message.getText().toString(), topicEditText.getText().toString()  )
                         .addExtraData(data).send();
             }
         });
