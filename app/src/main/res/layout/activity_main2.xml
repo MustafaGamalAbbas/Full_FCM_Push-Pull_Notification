@@ -14,7 +14,7 @@
                 android:layout_margin="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Start push"
+                android:text="Start pushing"
                 android:textAllCaps="false"
                 android:id="@+id/startPush"
                 />
@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:text="Manage subscription"
+                android:text="Manage subscriptions"
                 android:id="@+id/manageSub"
                 />
         </LinearLayout>

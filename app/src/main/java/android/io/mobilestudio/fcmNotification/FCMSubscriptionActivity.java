@@ -42,7 +42,7 @@ public class FCMSubscriptionActivity extends AppCompatActivity implements View.O
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                FCMSubscriptionManager.getInstance(FCMSubscriptionActivity.this).subscribeToTopic(values.get(i));
+                FCMSubscriptionManager.getInstance(FCMSubscriptionActivity.this).unsubscribeFromTopic(values.get(i));
                 values.remove(i);
                 adapter.notifyDataSetChanged();
                 return true;
