@@ -7,7 +7,7 @@
 * [Features](#features)
 * [Prerequisites](#prerequisites)
 * [Usage](#usage)
-*[notes](#notes)
+* [notes](#notes)
 * [License](#license)
 
 
@@ -128,7 +128,7 @@ dependencies {
 	// set custom sound for notification (foreground and background)
 	.setCustomSound(customSound)
 	// customize notification title 
-	.setNotificationTitle("Your custom titl")
+	.setNotificationTitle("Your custom title")
 	// customize notification Message
 	.setNotificationMessage("Your cutsom messages ")
 ```
