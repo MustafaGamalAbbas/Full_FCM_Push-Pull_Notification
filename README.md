@@ -7,12 +7,12 @@
 * [Features](#features)
 * [Prerequisites](#prerequisites)
 * [Usage](#usage)
-* [notes](#notes)
+* [Notes](#notes)
 * [License](#license)
 
 
 ## Overview
-FCM push/ pull notification is a library that facilitate interaction with firebase could messaging either for pushing notification or receiving messages (notification) , and it also facilitate grouping peaple on topic or channel 
+FCM push/pull notification is a library that facilitate interaction with firebase could messaging either for pushing notification or receiving messages , and it also facilitate grouping peaple on topic or channel 
 ## Features
 * Push notification to group of peaple subscribed to some topic or them tokens 
 * Receive Firebase push messages 
@@ -32,18 +32,18 @@ FCM push/ pull notification is a library that facilitate interaction with fireba
 
 Add the firebase dependency to your app-level build.gradle file
 
-```
+```gradle
 apply plugin: 'com.google.gms.google-services'
 ```
 Add the library dependency in your app-level build.gradle file 
-```
+```gradle
 dependencies {
               ...
     implementation 'com.github.MustafaGamalAbbas:Full_FCM_Push-Pull_Notification:1.05'
 }
 ```
 Add jitpack.io to your project-level build.gradle file  :
-```
+```gradle
 allprojects {
   		repositories {
   			```
@@ -52,7 +52,7 @@ allprojects {
   	}
 ```
 Add google-services to your project-level build.gradle file  :
-```
+```gradle
 dependencies {
        ``
        classpath 'com.google.gms:google-services:3.0.0'
@@ -63,8 +63,7 @@ dependencies {
 
 ## Usage
 ### Subscription
-```
-<Java>
+```java
         //1- Subscribe user device to topic
 		FCMSubscriptionManager.getInstance(this).subscribeToTopic("TopicName");
 	//2- Unsubscribe user device from topic 
@@ -77,16 +76,14 @@ dependencies {
 ```
 ### Pulling 
 * **Init** 
-```
-<Java>
+```java
 	// at Activity 
            FCMPullNotificationManager manager = FCMPullNotificationManager.getInstance(this);
 	// at Fragment 
 	   FCMPullNotificationManager manager = FCMPullNotificationManager.getInstance(getContext());
 ```
 * **Register FCM Callback** 
-```
-<Java>
+```java
 	// make to activity or fragment implement IPullFCMCallback and use this line. 
 		(Like YourActivity implement IPullFCMCallback) 
 	 	manager.registerListener( this);
@@ -109,8 +106,7 @@ dependencies {
         });
 ```
 * **Auto launch notification (Optional)** 
-```
-<Java>
+```java
 	// just tell manager that you will handle notification
  	manager.autoLaunchNotification(builder);
 	// builder!? 
@@ -136,14 +132,12 @@ dependencies {
 * **Init** 
 
 [Getting ServerKey](https://stackoverflow.com/questions/37427709/firebase-messaging-where-to-get-server-key?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
-```
-<Java>
+```java
 	// initiate and send your server key 
     	FCMPushNotificationManager manager = FCMPushNotificationManager.getInstance(serverKey);
 ```
 * **Register FCM Callback** 
-```
-<Java>
+```java
 	// make to activity or fragment implement IPushFCMCallback and use this line. 
 		(Like YourActivity implement IPushFCMCallback) 
 	 	manager.registerListener( this);
@@ -162,8 +156,7 @@ dependencies {
 ```
 * **Send Notification** 
 
-```
-<Java>
+```java
 	// You can notify through 4 ways as following 
 	
 	//1- Notify group of people subscribed to some topic
