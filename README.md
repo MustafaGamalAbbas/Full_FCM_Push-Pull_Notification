@@ -12,7 +12,7 @@
 
 
 ## Overview
-FCM push/pull notification is a library that facilitate interaction with firebase could messaging either for pushing notification or receiving messages , and it also facilitate grouping peaple on topic or channel 
+FCM push/pull notification is a library that facilitate interaction with firebase could messaging either for pushing notification or receiving messages , and it also facilitate grouping people on topic or channel 
 ## Features
 * Push notification to group of peaple subscribed to some topic or them tokens 
 * Receive Firebase push messages 
